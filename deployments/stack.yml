@@ -1,0 +1,21 @@
+version: '3.2'
+
+services:
+  app:
+    image: registry.cn-beijing.aliyuncs.com/antdate/antdate-admin:dev
+    ports:
+      - target: 8090
+        published: 8090
+        protocol: tcp
+#        mode: host
+    networks:
+      - antdate_network
+    deploy:
+      mode: global
+      placement:
+        constraints: [node.platform.os == linux]
+
+networks:
+  antdate_network:
+    driver: overlay
+    attachable: true

@@ -1,0 +1,11 @@
+name: "shuwen-admin"
+addr: ":8090"
+version: "1.0.0"
+debug: true
+db:
+  host: 62.234.11.179
+  username: admin
+  password: Admin.com@_00..
+  port: 3306
+  dbname: admin
+  logMode: true
