@@ -9,7 +9,6 @@ require (
 	github.com/aliyun/aliyun-oss-go-sdk v2.1.0+incompatible
 	github.com/antchfx/htmlquery v1.2.3 // indirect
 	github.com/antchfx/xmlquery v1.2.4 // indirect
-	github.com/antdate/antdate-service v0.0.0-20200604153049-9b180bde5093
 	github.com/baiyubin/aliyun-sts-go-sdk v0.0.0-20180326062324-cfa1a18b161f // indirect
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-resty/resty/v2 v2.3.0
